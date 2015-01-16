@@ -1,45 +1,8 @@
 Urbini
 ======
-Urbini is a mobile web framework that helps web apps and native apps work together in one network. 
+Urbini is a mobile web framework that takes some tedious tasks of building mobile web apps away from you.
+We are redesigning it right now to work well with with blockchain and bittorrent networks.
 
-Physics UI
-========
-In 2013 the design went flat. In 2014 the focus in mobile web apps is on realistic, fluid, intuitive motion. iOS and native apps serve to us as a shiny beacon here. To give web apps an edge, we integrated Urbini with a physics engine (and are working with another physics engine developer to offer you more choices). 
-
-We started with a very difficult control, an infinite scroll with momentum and edge bounces. It works for a full page vertically or horizontally, or as a strip, like still shots in IMDB app. Not only this control handles millions of rows on the tinyest of mobile devices, it provides the cool way to control its physics, the air drag, the spring stiffness and damping. 
-
-More controls with simulas for mass, gravity, friction, magnetic snaps will follow. We want devs to choose from a gallery of buttery smooth cool movements to drop into their apps. Read up, we'll talk about physics more a bit later. 
-
-Each app is a platform 
-=================
-What developer does not secretly hope to turn his app into a platform? With our IFTTT-inspired design your app will automatically serve as a hub to the complementary apps. For those familiar with IFTTT, here is a compare-and-contrast checklist:
-
-1. Like IFTTT, Urbini aspires to connect apps and devices (Internet of Things)
-
-2. Unlike IFTTT, Urbini is for mobile web, facilitating app and device connections on smartphones and tablets.
-
-3. Unlike IFTTT it is open, all connectivity code is here on github. And unlike IFTTT, channels (maps to existing apps) can be created by anyone.
-
-4. Unlike IFTTT it is more programmable. All app inter-connections are unified via [backbone] data models, and for each connection you can add a small JavaScript.  
-
-
-The Appnet
-==================
-Think of app networking in Urbini, as mashups++. Instead of the custom ad-hoc code connecting the apps, the Appnet offers a unified method of mapping any webapi into a browser-based database. Apps can now use data from multiple sites as if it was one site (see an [article on Appnet and its goals](https://github.com/urbien/urbini/wiki/Appnet)).
-
-Here are the steps:
-
-1. Use mobile/tablet browser create an App on http://urbien.com. In desktop browser go to http://urbien.com/app/UrbienApp. To start app creation click on App gallery and click on + icon in navbar.
-
-2. Using a browser define backbone model(s) that will be created from a WebAPI.
-
-3. Each model has a property sync. Paste into it an adapter script that will map json returned by site's WebAPI into backbone model objects. See Urbien Groupon app as a sample. To preserve quality and lower the noise, the new App initially shows up in App Ideas. When 3 people install it, it will show up in App Gallery. 
-
-4. Not just the site's owner, but anyone can create an app, models and adapter for someone else's site. And anyone can create IFTTT-like connectors between the apps using simple JavaScript.
-
-App dev for the rest of us
-====================
-Urbini lifts mobile web apps to the level of native apps and then helps them work together in one network, thus making the mobile app dev field more open. @urbien we set out to build tools for ourselves to produce mobile web apps much faster. Then we realized that others could use the same tools. Thus Urbini was conceived. But we wanted to take Urbini much further. Our vision is to open mobile app dev to non-professional developers. Here is the architecture that we created to make this happen.
 
 Data binding ++ 
 =================
