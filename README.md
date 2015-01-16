@@ -1,8 +1,7 @@
 Urbini
 ======
 Urbini is a mobile web framework that takes some tedious tasks of building mobile web apps away from you.
-We are redesigning it right now to work well with with blockchain and bittorrent networks.
-
+We are currently redesigning urbini to work well with with blockchain and bittorrent networks, to be a foundation for [DApps](https://github.com/tradle/about/wiki/%C4%90Apps,-decentralized-apps).
 
 Data binding ++ 
 =================
