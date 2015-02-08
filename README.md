@@ -5,7 +5,7 @@ We are currently redesigning urbini to work well with with blockchain and bittor
 
 Data binding ++ 
 =================
-MVC framewokslike Backbone have drastically changed the way we build Web apps, moving most of app dev from the server to the browser side. 
+MVC framewoks like backbone.js have drastically changed the way we build Web apps, moving most of app dev from the server to the browser side. 
 
 Require.js and other AMD loaders emerged to address the greater weight and complexity of such web apps.
 UI frameworks, like Bootstrap, Topcoat, Building Blocks, jQuery Mobile have offered great skins, and the JS libraries, like the masonry (isotope, infinity, packery, etc.), mobiscroll, leaflet, d3, etc. are making writing apps entirely on the client side possible. 
