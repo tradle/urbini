@@ -1,7 +1,7 @@
 Urbini
 ======
 Urbini is a mobile web framework that takes some tedious tasks of building mobile web apps away from you.
-We are currently redesigning urbini to work well with with blockchain and bittorrent networks, to be a foundation for [DApps](https://github.com/tradle/about/wiki/%C4%90Apps,-decentralized-apps).
+We are currently redesigning urbini to work well with with blockchain and bittorrent networks, to be the foundation for [DApps](https://github.com/tradle/about/wiki/%C4%90Apps,-decentralized-apps).
 
 Data binding ++ 
 =================
@@ -54,9 +54,8 @@ More optimizations are planned:
 
 Documentation
 ============
-Help us edit <a href="https://github.com/urbien/urbini/wiki">a wiki</a> to teach newbies how to build mobile web apps really fast. These apps start with just a model that is created in the web browser, even on a smartphone. They offer 100% generated UI which can later be customized, provide full offline support, feature built in social login (to 5+ networks) and automatic social reposting, have profile import and friend invite, e-commerce capabilities, image galleries and a lot more, without newly christened developer lifting a finger. For professional developers these apps are a great starting point to modify our templates, views, and to start experimenting with app networking, without being bogged down with the usual build up of the core app functionality. 
+Help us edit <a href="https://github.com/tradle/urbini/wiki">a wiki</a> to teach newbies how to build mobile web apps really fast. These apps start with just a model that is created in the web browser, even on a smartphone. They offer 100% generated UI which can later be customized, provide full offline support, feature built in social login (to 5+ networks) and automatic social reposting, have profile import and friend invite, e-commerce capabilities, image galleries and a lot more, without newly christened developer lifting a finger. For professional developers these apps are a great starting point to modify our templates, views, and to start experimenting with app networking, without being bogged down with the usual build up of the core app functionality. 
 
-Please join us in this amazing journey of making the Web open again.
-
-Gene, Ellen, Jacob, Mark, Simon, Alex and the rest of Urbien team.
-Visit <a href="http://urbien.com">Urbien</a> to learn more about us.
+Future work
+===========
+We are exploring the promise of React Native to further speed up the UI in mobile apps.
